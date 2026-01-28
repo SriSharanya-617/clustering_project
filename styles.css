@@ -1,0 +1,117 @@
+/* =========================
+   APP BACKGROUND
+========================= */
+.stApp {
+    background-color: #f7f9fc !important;   /* very light blue */
+    color: #000000 !important;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+section[data-testid="stSidebar"] {
+    background-color: #eef2ff !important;   /* light lavender */
+    border-right: 1px solid #dcdcdc;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #000000 !important;              /* BLACK TEXT */
+    font-weight: 500;
+}
+
+/* =========================
+   MAIN TEXT
+========================= */
+.main * {
+    color: #000000 !important;
+}
+
+/* =========================
+   TITLE CARD
+========================= */
+.title-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.08);
+}
+
+.title-box h1 {
+    color: #1f3c88;
+    font-weight: 800;
+}
+
+.title-box p {
+    color: #000000;
+    font-size: 16px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.stButton > button {
+    background-color: #2563eb;   /* soft blue */
+    color: #ffffff;
+    font-size: 18px;
+    height: 55px;
+    border-radius: 12px;
+    border: none;
+}
+
+.stButton > button:hover {
+    background-color: #1e40af;
+}
+
+/* =========================
+   SECTIONS / CARDS
+========================= */
+.loan-section {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    margin-top: 25px;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.06);
+}
+
+.loan-section h2 {
+    color: #1f3c88;
+    font-weight: 700;
+}
+
+.loan-section p {
+    color: #000000;
+    font-size: 16px;
+}
+
+/* =========================
+   BADGES
+========================= */
+.badge-row {
+    margin-top: 10px;
+}
+
+.info-badge {
+    background-color: #e0e7ff;
+    color: #000000;
+    padding: 10px 16px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.meta-badge {
+    background-color: #bae6fd;
+    font-weight: 700;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+    color: #000000;
+    text-align: center;
+    margin-top: 40px;
+}
